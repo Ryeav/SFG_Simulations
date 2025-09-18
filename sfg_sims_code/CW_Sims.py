@@ -8,7 +8,7 @@ import getpass
 import matplotlib as matplot
 from scipy.fft import fft,ifft,fftfreq
 from scipy.integrate import solve_ivp
-from SellmeierParameters.Sellmeier_GroupVelocity import get_params,print_params 
+from SFG_Sim.Sellmeier_GroupVelocity import get_params,print_params 
 import datetime
 from numba import njit,jit
 from numba import prange
